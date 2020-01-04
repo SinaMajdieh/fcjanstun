@@ -81,8 +81,8 @@ func (j *janstun) Hear() {
 
 }
 
-func (j *janstun) SenseBody() {
-
+func (j *janstun) SenseBody(sb rcss.SenseBody) {
+	//fmt.Printf("Player Type: %#v\n", sb)
 }
 
 func (j *janstun) Score() {
